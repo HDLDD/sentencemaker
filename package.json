@@ -4,6 +4,11 @@
   "description": "英语造句学习网站 - Sentence Making Practice",
   "private": true,
   "scripts": {
-    "build": "echo 'Static site - no build step required'"
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
   }
 }
