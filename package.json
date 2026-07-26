@@ -4,10 +4,6 @@
   "description": "英语造句学习网站 - Sentence Making Practice",
   "private": true,
   "scripts": {
-    "dev": "wrangler pages dev ./frontend",
     "build": "echo 'Static site - no build step required'"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
   }
 }
