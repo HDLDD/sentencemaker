@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "wrangler pages dev ./frontend",
-    "build": "echo 'Static site - no build step required'",
-    "deploy": "wrangler pages deploy ./frontend"
+    "build": "echo 'Static site - no build step required'"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
