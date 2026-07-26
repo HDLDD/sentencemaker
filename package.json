@@ -1,14 +1,6 @@
 {
-  "name": "sentence-make",
+  "name": "sentence-maker",
   "version": "1.0.0",
   "description": "英语造句学习网站 - Sentence Making Practice",
-  "private": true,
-  "scripts": {
-    "build": "echo 'Static site - no build step required'",
-    "deploy": "npx wrangler deploy",
-    "dev": "npx wrangler dev"
-  },
-  "devDependencies": {
-    "wrangler": "^4.0.0"
-  }
+  "private": true
 }
