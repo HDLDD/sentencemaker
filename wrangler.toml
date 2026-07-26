@@ -1,0 +1,14 @@
+name = "sentence-make"
+compatibility_date = "2025-01-01"
+
+pages_build_output_dir = "frontend"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sentence-make-db"
+database_id = ""
+
+[env.production]
+routes = [
+  { pattern = "/*", zone_id = "" }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "sentence-make",
+  "version": "1.0.0",
+  "description": "英语造句学习网站 - Sentence Making Practice",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev ./frontend",
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "wrangler pages deploy ./frontend"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

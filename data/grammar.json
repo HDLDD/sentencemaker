@@ -1,0 +1,78 @@
+[
+  {
+    "id":1,"name":"一般现在时","level":"beginner","description":"表示经常发生的动作或存在的状态。",
+    "formula":"主语 + 动词原形 / 动词第三人称单数","example":"I get up at 7am. / She gets up at 7am.",
+    "tips":"当主语是第三人称单数（he/she/it）时，动词加 -s 或 -es",
+    "related_ids":[2,3,4]
+  },
+  {
+    "id":2,"name":"现在进行时","level":"beginner","description":"表示正在进行的动作。",
+    "formula":"主语 + am/is/are + doing","example":"He is reading a book right now.",
+    "tips":"常与 now, at the moment, right now 等时间状语连用",
+    "related_ids":[]
+  },
+  {
+    "id":3,"name":"be动词用法","level":"beginner","description":"am/is/are 作为系动词，连接主语和表语。","formula":"主语 + am/is/are + 名词/形容词",
+    "example":"She is a teacher. / They are happy.",
+    "tips":"I 用 am，he/she/it 用 is，we/you/they 用 are",
+    "related_ids":[1]
+  },
+  {
+    "id":4,"name":"like doing / like to do","level":"beginner","description":"表示喜欢做某事。","formula":"主语 + like/likes + doing / 主语 + like/likes + to do",
+    "example":"I like swimming. / He likes to read books.",
+    "tips":"like doing 强调习惯性喜好，like to do 强调具体某次行为",
+    "related_ids":[3]
+  },
+  {
+    "id":5,"name":"现在完成时","level":"intermediate","description":"表示过去发生的动作对现在造成影响，或从过去持续到现在的状态。",
+    "formula":"主语 + have/has + 过去分词","example":"I have finished my homework.",
+    "tips":"常与 already, yet, ever, never, just 连用",
+    "related_ids":[14]
+  },
+  {
+    "id":6,"name":"现在完成进行时","level":"advanced","description":"表示从过去开始一直持续到现在的动作，强调动作的持续性。",
+    "formula":"主语 + have/has been + doing","example":"I have been waiting for an hour.",
+    "tips":"常与 for + 时间段，since + 时间点连用",
+    "related_ids":[5]
+  },
+  {
+    "id":7,"name":"be going to 将来时","level":"beginner","description":"表示计划好要做的事或即将发生的事。","formula":"主语 + am/is/are going to + 动词原形",
+    "example":"We are going to visit the museum tomorrow.","tips":"与 will 的区别：be going to 强调有计划，will 强调临时决定",
+    "related_ids":[]
+  },
+  {
+    "id":8,"name":"because 原因状语从句","level":"intermediate","description":"引导原因状语从句，说明主句动作发生的原因。","formula":"Because + 从句，主句 或 主句 + because + 从句",
+    "example":"Because it rained, we stayed at home.","tips":"because 后面接完整的句子，不能接名词",
+    "related_ids":[]
+  },
+  {
+    "id":9,"name":"形容词比较级","level":"intermediate","description":"比较两者之间的差异。","formula":"主语 + be + 比较级 + than + 比较对象",
+    "example":"This book is more interesting than that one.","tips":"单音节词加 -er，多音节词加 more",
+    "related_ids":[]
+  },
+  {
+    "id":10,"name":"if 条件句（真实）","level":"intermediate","description":"表示如果条件成立，就会发生某事（真实可能性）。","formula":"If + 一般现在时，主语 + will/may/can + 动词原形",
+    "example":"If it rains, I will stay at home.","tips":"主将从现：if从句用一般现在时，主句用将来时",
+    "related_ids":[11]
+  },
+  {
+    "id":11,"name":"虚拟语气（与现在相反）","level":"advanced","description":"表示与现在事实相反的假设。","formula":"If + 主语 + 过去式(were)，主语 + would/could + 动词原形",
+    "example":"If I were you, I would study harder.","tips":"be动词一律用 were，不论主语的人称和数",
+    "related_ids":[10]
+  },
+  {
+    "id":12,"name":"should have done","level":"advanced","description":"表示过去本应该做但没做的事，含有责备或遗憾的语气。","formula":"主语 + should have + 过去分词",
+    "example":"You should have told me earlier.","tips":"否定形式：shouldn't have done（本不应该做但做了）",
+    "related_ids":[]
+  },
+  {
+    "id":13,"name":"被动语态","level":"advanced","description":"表示动作的承受者做主语。","formula":"主语 + be + 过去分词 (+ by + 动作执行者)",
+    "example":"This bridge was built in 2008.","tips":"注意时态变化体现在 be 动词上",
+    "related_ids":[]
+  },
+  {
+    "id":14,"name":"倒装句","level":"advanced","description":"为了强调将部分谓语提到主语前面。","formula":"Not until/Only then + 倒装结构 + 句子剩余部分",
+    "example":"Not until then did I realize the truth.","tips":"not until 放在句首时，主句需要部分倒装",
+    "related_ids":[]
+  }
+]
